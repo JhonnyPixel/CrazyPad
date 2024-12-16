@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279E7D672D01F22D0000F985 /* soundpacks in Resources */ = {isa = PBXBuildFile; fileRef = 279E7D662D01F22D0000F985 /* soundpacks */; };
+		279E7D6A2D01FD8E0000F985 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 279E7D692D01FD8E0000F985 /* Lottie */; };
+		279E7D6E2D01FE5A0000F985 /* soundAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 279E7D6D2D01FE5A0000F985 /* soundAnimation.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		279E7D662D01F22D0000F985 /* soundpacks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = soundpacks; sourceTree = "<group>"; };
+		279E7D6D2D01FE5A0000F985 /* soundAnimation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = soundAnimation.json; sourceTree = "<group>"; };
+		27D5D1E02CFFC9F30025ACB8 /* CrazyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		279E7E0D2D020D7E0000F985 /* Exceptions for "CrazyPad" folder in "CrazyPad" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"soundpacks/Altblankn Tahitian Ukulele Pack/abmaj210.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/acoustic guitar cmaj104.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/amaj120.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/amin100hawaiian.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/amin130.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/c#maj190.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/cmaj110 2.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/cmaj110.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/cmaj160.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/cmaj180.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/d#min140.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/dreamy c#min120.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/dreamy fmin110.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/ebmaj180.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/electric guitar g#maj140.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/emaj140 2.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/emaj140.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/emaj210.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/fmaj126 2.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/fmaj126.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/fmaj180.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/gmaj100.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/hawaiian ukulele edited amin110.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/mysterious cdim170.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/sad piano bmaj100 (approx).wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/soft dmaj105.wav",
+				"soundpacks/Altblankn Tahitian Ukulele Pack/Tahitian Uke 2.jpeg",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 1.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 2.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 3.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 4.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 5.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 6.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 7.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 8.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 9.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 10.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 11.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 12.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 13.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 14.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 15.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 16.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 17.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 18.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 20.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 21.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 22.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - D# 23.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 1.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 2.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 3.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 4.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 5.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 6.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 7.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 8.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 9.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 10.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - E 11.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 1.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 2.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 3.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 4.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 5.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 6.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 7.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 8.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 9.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 10.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 11.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 12.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 13.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 14.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 15.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 16.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 17.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 18.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 19.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 20.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 21.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 22.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 23.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 24.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 25.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 26.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 27.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 28.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 29.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 30.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 31.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 32.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 33.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 34.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 35.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 36.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 37.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 38.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F 39.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 1.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 2.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 3.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 4.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 5.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 6.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 7.wav",
+				"soundpacks/Bass Pack/Antidote_Bass One Shots - F# 8.wav",
+				"soundpacks/Bass Pack/background.png",
+				"soundpacks/Drum Pack/background.png",
+				"soundpacks/Drum Pack/jerk-beat-drum-clap-lo-fi_175bpm_G_major.wav",
+				"soundpacks/Drum Pack/jerk-beat-drum-kick_92bpm_F_minor.wav",
+				"soundpacks/Drum Pack/jerk-beat-drum-kick-detroit_170bpm_F_minor.wav",
+				"soundpacks/Drum Pack/jerk-beat-drum-kick-pierre_124bpm_A#_minor.wav",
+				"soundpacks/Drum Pack/jerk-beat-drum-open-hi-hat_121bpm_A#_minor.wav",
+				"soundpacks/Dutty Loops/_READ ME!.txt",
+				"soundpacks/Dutty Loops/@TIDAL355 - Bentayga Cruisin [140bpm] F#m.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - BloodAndWine [140bpm] F.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Contemplating [145bpm] Bbm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - DarkRegal [141bpm] G.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Dead Threats Piano Loop [141bpm] Bm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Dead Threats Piano Loop With Vox [141bpm] Bm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Death Sentance Full Loop [140bpm] Am.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Death Sentance Graveyard Pads Main [140bpm] Am.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Death Sentance Graveyard Pads With Hollow Plucks [140bpm] Am.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Dirty Filtered String Lead [137bpm] A#min.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Paigon Endz [142bpm] Bbm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Penthouse Living [140bpm] Gm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Phantom Choir Pitched Down [140bpm] Bm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - PhantomChoir [140bpm] Bm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Shape Up Lead [137bpm] A#m.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Shape Up Lead With Vox [137bpm] A#m.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Smoke and Mirrors [136bpm] Cm.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Strip Tease [97bpm] Am.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Switching Lanes [150bpm] Em.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - Too Much Paper [140bpm] E.wav",
+				"soundpacks/Dutty Loops/@TIDAL355 - US Drill Strip Club Loop [140bpm] Dm.wav",
+				"soundpacks/Dutty Loops/background.png",
+				"soundpacks/Dutty Loops/OG Drill Piano Loops/Greezy UK Drill Piano - 141 - D#min - TIDAL355.wav",
+				"soundpacks/Dutty Loops/OG Drill Piano Loops/OG Dutty UK Drill Piano - 142 - Cmin - TIDAL355.wav",
+				"soundpacks/Dutty Loops/OG Drill Piano Loops/OG Greez Drill Piano - 142 - Fmin - TIDAL355.wav",
+				"soundpacks/Dutty Loops/OG Drill Piano Loops/OG UK Drill Piano - 143 - C#min - TIDAL355.wav",
+				"soundpacks/Dutty Loops/sound2.wav",
+				"soundpacks/Dutty Loops/sound3.wav",
+				"soundpacks/Electric Guitar Loops/background.png",
+				"soundpacks/Electric Guitar Loops/Caustic_104_E_GuitarTexture.wav",
+				"soundpacks/Electric Guitar Loops/GammaSystem_104_E_ChordAmbienceGammaSystem_104_E_ChordAmbience.wav",
+				"soundpacks/Electric Guitar Loops/LightAsAir_100_C_RiffAmbience.wav",
+				"soundpacks/Electric Guitar Loops/Megalith_87_Am_GuitarChordsFX01.wav",
+				"soundpacks/Electric Guitar Loops/Mirage_87_F_GuitarHarmonicsFX.wav",
+				"soundpacks/Electric Guitar Loops/MirrorRoom_93_Am_GuitarHarmonicsFX.wav",
+				"soundpacks/Electric Guitar Loops/Sunshine_90_E_BassGuitar.wav",
+				"soundpacks/Electric Guitar Loops/Sunshine_90_E_GuitarChords.wav",
+				"soundpacks/Electric Guitar Loops/Sunshine_90_E_GuitarLead.wav",
+				"soundpacks/Electric Guitar Loops/Sunshine_90_E_GuitarRiff.wav",
+				"soundpacks/Electric Guitar Loops/SweetTreat_80_C_BassGuitar.wav",
+				"soundpacks/Electric Guitar Loops/SweetTreat_80_C_GuitarArp.wav",
+				"soundpacks/Electric Guitar Loops/SweetTreat_80_C_GuitarRiff.wav",
+				"soundpacks/Electric Guitar Loops/Tether_100_C_ChordAmbience.wav",
+			);
+			target = 27D5D1DF2CFFC9F30025ACB8 /* CrazyPad */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		27D5D1E22CFFC9F30025ACB8 /* CrazyPad */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				279E7E0D2D020D7E0000F985 /* Exceptions for "CrazyPad" folder in "CrazyPad" target */,
+			);
+			path = CrazyPad;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D5D1DD2CFFC9F30025ACB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279E7D6A2D01FD8E0000F985 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D5D1D72CFFC9F30025ACB8 = {
+			isa = PBXGroup;
+			children = (
+				279E7D662D01F22D0000F985 /* soundpacks */,
+				27D5D1E22CFFC9F30025ACB8 /* CrazyPad */,
+				27D5D1E12CFFC9F30025ACB8 /* Products */,
+				279E7D6D2D01FE5A0000F985 /* soundAnimation.json */,
+			);
+			sourceTree = "<group>";
+		};
+		27D5D1E12CFFC9F30025ACB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D5D1E02CFFC9F30025ACB8 /* CrazyPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D5D1DF2CFFC9F30025ACB8 /* CrazyPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D5D1EE2CFFC9F40025ACB8 /* Build configuration list for PBXNativeTarget "CrazyPad" */;
+			buildPhases = (
+				27D5D1DC2CFFC9F30025ACB8 /* Sources */,
+				27D5D1DD2CFFC9F30025ACB8 /* Frameworks */,
+				27D5D1DE2CFFC9F30025ACB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				27D5D1E22CFFC9F30025ACB8 /* CrazyPad */,
+			);
+			name = CrazyPad;
+			packageProductDependencies = (
+				279E7D692D01FD8E0000F985 /* Lottie */,
+			);
+			productName = CrazyPad;
+			productReference = 27D5D1E02CFFC9F30025ACB8 /* CrazyPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D5D1D82CFFC9F30025ACB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					27D5D1DF2CFFC9F30025ACB8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 27D5D1DB2CFFC9F30025ACB8 /* Build configuration list for PBXProject "CrazyPad" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27D5D1D72CFFC9F30025ACB8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				279E7D682D01FD8E0000F985 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27D5D1E12CFFC9F30025ACB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D5D1DF2CFFC9F30025ACB8 /* CrazyPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D5D1DE2CFFC9F30025ACB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279E7D672D01F22D0000F985 /* soundpacks in Resources */,
+				279E7D6E2D01FE5A0000F985 /* soundAnimation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D5D1DC2CFFC9F30025ACB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27D5D1EC2CFFC9F40025ACB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D5D1ED2CFFC9F40025ACB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D5D1EF2CFFC9F40025ACB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 8SX8P43PGN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhonnypixel.CrazyPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D5D1F02CFFC9F40025ACB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 8SX8P43PGN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhonnypixel.CrazyPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D5D1DB2CFFC9F30025ACB8 /* Build configuration list for PBXProject "CrazyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5D1EC2CFFC9F40025ACB8 /* Debug */,
+				27D5D1ED2CFFC9F40025ACB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D5D1EE2CFFC9F40025ACB8 /* Build configuration list for PBXNativeTarget "CrazyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5D1EF2CFFC9F40025ACB8 /* Debug */,
+				27D5D1F02CFFC9F40025ACB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		279E7D682D01FD8E0000F985 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		279E7D692D01FD8E0000F985 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 279E7D682D01FD8E0000F985 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27D5D1D82CFFC9F30025ACB8 /* Project object */;
+}
