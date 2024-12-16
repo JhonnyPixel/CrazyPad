@@ -40,7 +40,9 @@ struct ContentView: View {
             NavigationStack {
                 SoundpackListView(soundpacks: soundpacks)
             }
+            
         }
+    
 }
 
 #Preview {

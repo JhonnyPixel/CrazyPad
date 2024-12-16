@@ -72,7 +72,7 @@ struct LaunchpadView: View {
     var body: some View {
         VStack {
             // Lottie Animation View
-            LottieView(animationName: "soundAnimation", isPlaying: $isAnimationPlaying)
+            LottieView(animationName: "musicAnimation", isPlaying: $isAnimationPlaying)
                 .frame(height: 200)
             
             // Grid di suoni

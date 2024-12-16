@@ -164,6 +164,8 @@ struct SoundpackBoxView: View {
                             .background(Color.black.opacity(0.7))
                             .clipShape(Circle())
                     }
+                    .accessibilityLabel("soundpack preview button")
+                    .accessibilityHint("listen to the preview of the soundpack")
                     Spacer()
                 }
                 Spacer()

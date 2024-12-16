@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2721B0072D108EBA009D3F0B /* musicAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 2721B0062D108EBA009D3F0B /* musicAnimation.json */; };
 		279E7D672D01F22D0000F985 /* soundpacks in Resources */ = {isa = PBXBuildFile; fileRef = 279E7D662D01F22D0000F985 /* soundpacks */; };
 		279E7D6A2D01FD8E0000F985 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 279E7D692D01FD8E0000F985 /* Lottie */; };
 		279E7D6E2D01FE5A0000F985 /* soundAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 279E7D6D2D01FE5A0000F985 /* soundAnimation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2721B0062D108EBA009D3F0B /* musicAnimation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = musicAnimation.json; sourceTree = "<group>"; };
 		279E7D662D01F22D0000F985 /* soundpacks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = soundpacks; sourceTree = "<group>"; };
 		279E7D6D2D01FE5A0000F985 /* soundAnimation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = soundAnimation.json; sourceTree = "<group>"; };
 		27D5D1E02CFFC9F30025ACB8 /* CrazyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +217,7 @@
 				27D5D1E22CFFC9F30025ACB8 /* CrazyPad */,
 				27D5D1E12CFFC9F30025ACB8 /* Products */,
 				279E7D6D2D01FE5A0000F985 /* soundAnimation.json */,
+				2721B0062D108EBA009D3F0B /* musicAnimation.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2721B0072D108EBA009D3F0B /* musicAnimation.json in Resources */,
 				279E7D672D01F22D0000F985 /* soundpacks in Resources */,
 				279E7D6E2D01FE5A0000F985 /* soundAnimation.json in Resources */,
 			);

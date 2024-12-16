@@ -58,6 +58,7 @@ struct SoundView: View {
                .frame(maxWidth: .infinity, minHeight: 100)
                .padding()
                .background(sound.color)
+               .opacity(isPlaying ? 1.0:0.3)
                .cornerRadius(10)
            }
            .onAppear {

@@ -12,7 +12,7 @@ struct LottieView: UIViewRepresentable {
     let animationName: String
     @Binding var isPlaying: Bool
     
-    var loopMode: LottieLoopMode = .playOnce
+    var loopMode: LottieLoopMode = .loop
 
     private let animationView = LottieAnimationView()
 
@@ -21,6 +21,7 @@ struct LottieView: UIViewRepresentable {
         animationView.animation = LottieAnimation.named(animationName)
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = loopMode
+        
 
         view.addSubview(animationView)
         animationView.translatesAutoresizingMaskIntoConstraints = false

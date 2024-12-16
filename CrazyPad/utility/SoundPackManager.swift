@@ -127,10 +127,11 @@ func loadSoundpacks() -> [Soundpack] {
                         let soundFilePath = soundFile.deletingPathExtension().relativePath.replacingOccurrences(of: relativePath, with: "soundpacks")
                         
                         let soundName = soundFile.deletingPathExtension().lastPathComponent
+                        let soundType = determineSoundType(from: soundName)
                         let sound = Sound(
-                            name: soundName,
-                            type: determineSoundType(from: soundName), // Funzione per determinare il tipo
-                            color: randomColor(), // Funzione per assegnare un colore casuale
+                            name: soundType,
+                            type: soundType, // Funzione per determinare il tipo
+                            color: determineColor(soundType), // Funzione per assegnare un colore casuale
                             fileName: soundFilePath // Usa il percorso relativo senza estensione
                         )
                         sounds.append(sound)
@@ -168,6 +169,18 @@ func determineSoundType(from name: String) -> String {
         return "melody"
     } else {
         return "unknown"
+    }
+}
+
+func determineColor(_ type: String) -> Color {
+    if type=="basso"{
+        return Color.red
+    }else if type=="vocals"{
+        return Color.green
+    }else if type=="melody"{
+        return Color.pink
+    }else{
+        return randomColor()
     }
 }
 
