@@ -96,9 +96,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Have questions? Reach out:
 
-- **Email**: [youremail@example.com](mailto:youremail@example.com)
-- **Twitter**: [@YourHandle](https://twitter.com/YourHandle)
-- **GitHub**: [YourUsername](https://github.com/YourUsername)
+- **Email**: [jhonnypixel@gmail.com](mailto:jhonnypixel@gmail.com)
+- **GitHub**: [YourUsername](https://github.com/jhonnypixel)
 
 ---
 
