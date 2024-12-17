@@ -50,9 +50,9 @@ struct SoundView: View {
                        Text(sound.name)
                            .font(.subheadline)
                            .foregroundColor(.white)
-                       Text(sound.type)
+                       /*Text(sound.type)
                            .font(.caption)
-                           .foregroundColor(.white.opacity(0.7))
+                           .foregroundColor(.white.opacity(0.7))*/
                    }
                }
                .frame(maxWidth: .infinity, minHeight: 100)
@@ -64,6 +64,8 @@ struct SoundView: View {
            .onAppear {
                activeDots = Array(repeating: false, count: totalDots)
            }
+           .accessibilityLabel("\(sound.type) sound, currently " + (isPlaying ? "active" : "inactive"))
+           .accessibilityHint("double tap to " + (isPlaying ? "deactivate" : "activate") + " the sound")
        }
        
        private func startAnimation() {

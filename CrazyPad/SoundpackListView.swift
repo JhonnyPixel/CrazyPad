@@ -16,8 +16,7 @@ struct SoundpackListView: View {
                 ForEach(soundpacks) { soundpack in
                     NavigationLink(destination: LaunchpadView(soundpack: soundpack)) {
                         SoundpackBoxView(soundpack: soundpack)
-                            .accessibilityLabel("\(soundpack.title) soundpack")
-                            .accessibilityHint("access the launchpad for the \(soundpack.title) soundpack")
+                            
                     }
                 }
             }

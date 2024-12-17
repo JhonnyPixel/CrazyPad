@@ -138,12 +138,15 @@ struct SoundpackBoxView: View {
     var body: some View {
         ZStack {
             // Sfondo del box
-            if let image = soundpack.backgroundImage {
+            if let image = soundpack.backgroundImage, !UIAccessibility.isVoiceOverRunning{
                 image
                     .resizable()
                     .scaledToFill()
                     .frame(height: 150)
                     .clipped()
+                    .accessibilityHidden(true)
+                
+                    
             } else {
                 soundpack.backgroundColor
                     .frame(height: 150)
@@ -164,8 +167,6 @@ struct SoundpackBoxView: View {
                             .background(Color.black.opacity(0.7))
                             .clipShape(Circle())
                     }
-                    .accessibilityLabel("soundpack preview button")
-                    .accessibilityHint("listen to the preview of the soundpack")
                     Spacer()
                 }
                 Spacer()
@@ -184,6 +185,9 @@ struct SoundpackBoxView: View {
         .onAppear {
             setupPlayer()
         }
+        .accessibilityElement(children: .combine) // Combina tutti gli elementi figli in un unico elemento per VoiceOver
+        .accessibilityLabel("\(soundpack.title) soundpack, preview button available")
+        .accessibilityHint("Double tap to access the soundpack")
     }
     
     func setupPlayer() {

@@ -82,6 +82,7 @@ struct LaunchpadView: View {
                         SoundView(sound: sound, onButtonPressed: { value in
                             updateActiveSounds(value)
                         })
+                        
                     }
                 }
                 .padding()
