@@ -13,9 +13,9 @@ Welcome to **Launchpad**, the next-generation app designed to revolutionize your
 
 ## 📸 Screenshots
 
-| Home Screen Widgets        | Shortcut Automations         | Settings Dashboard          |
-|----------------------------|-----------------------------|-----------------------------|
-| ![Screenshot 1](https://via.placeholder.com/300x600.png?text=Widget+Screenshot) | ![Screenshot 2](https://via.placeholder.com/300x600.png?text=Automation+Screenshot) | ![Screenshot 3](https://via.placeholder.com/300x600.png?text=Settings+Screenshot) |
+| Soundpacks View        | Launchpad View        |
+|----------------------------|-----------------------------|
+| ![Screenshot 1](soundpacks_view.png) | ![Screenshot 2](launchpad_view.png) |
 
 ## 🎨 App Demo
 
@@ -38,11 +38,11 @@ Follow these steps to set up and explore Launchpad:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Launchpad
+   cd CrazyPad
    ```
 3. Open the project in Xcode:
    ```bash
-   open Launchpad.xcodeproj
+   open CrazyPad.xcodeproj
    ```
 4. Build and run on your simulator or device.
 
@@ -73,5 +73,5 @@ Have questions? Reach out:
 
 ---
 
-Thank you for checking out Launchpad! 🚀 We can't wait to see how you use it to transform your iPhone experience!
+Thank you for checking out Launchpad! 🚀 We can't wait to see how you use it to transform your mixing experience!
 
