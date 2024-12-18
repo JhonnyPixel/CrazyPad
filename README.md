@@ -2,7 +2,7 @@
 
 # Launchpad - Your Ultimate iPhone Launchpad
 
-![Launchpad Logo](https://via.placeholder.com/800x200.png?text=App+Banner+Here)
+![Launchpad Logo](logo.png)
 
 Welcome to **Launchpad**, the next-generation app designed to revolutionize your mixing experience.
 
